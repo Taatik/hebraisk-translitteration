@@ -20,7 +20,7 @@ Funding for this module was graciously provided by [Educating for Impact](https:
 Download or clone this repository.
 
 ```bash
-cd [package]
+cd hebraisk-translitteration
 npm install
 npm run build
 ```
