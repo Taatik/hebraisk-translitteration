@@ -1,4 +1,6 @@
-# Danish
+![Hebraisk Translitteration](./hebraisk-translitteration-2400.png)
+
+# Hebraisk Translitteration
 
 A tool for transliterating liturgical Hebrew texts to Danish orthography.
 It is an augmentation of [havarot](https://github.com/charlesLoder/havarot).
