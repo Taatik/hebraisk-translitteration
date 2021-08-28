@@ -12,6 +12,7 @@ describe.each`
   ${"divine name"}                       | ${"יְהוָ֣ה"}                 | ${"Adånaj"}
   ${"3ms suffix"}                        | ${"תֹּורֹתָֽיו"}             | ${"tåråtav"}
   ${"multiple words and passeq"}         | ${"כְּשֶׁ֣בֶת ׀ הַמֶּ֣לֶךְ"} | ${"kæshævæt hamælæch"}
+  ${"mixed with latin chars"}            | ${"אֲבֹותֵינוּ (לְעֹולָם)"}  | ${"avåtæjnu (læålam)"}
 `("$description", ({ description, hebrew, transliteration }) => {
   const heb = new Text(hebrew);
   const transliteratedHeb = heb.transliterate();
