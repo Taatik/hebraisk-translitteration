@@ -1,6 +1,6 @@
 {
   "name": "hebraisk-translitteration",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a package for transliterating Hebrew to Danish",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
