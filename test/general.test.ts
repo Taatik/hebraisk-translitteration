@@ -13,6 +13,7 @@ describe.each`
   ${"3ms suffix"}                        | ${"תֹּורֹתָֽיו"}             | ${"tåråtav"}
   ${"multiple words and passeq"}         | ${"כְּשֶׁ֣בֶת ׀ הַמֶּ֣לֶךְ"} | ${"kæshævæt hamælæch"}
   ${"mixed with latin chars"}            | ${"אֲבֹותֵינוּ (לְעֹולָם)"}  | ${"avåtæjnu (læålam)"}
+  ${"qamets qatan"}                      | ${"כָּל־הָעוֹלָם"}           | ${"kål-ha-ålam"}
 `("$description", ({ description, hebrew, transliteration }) => {
   const heb = new Text(hebrew);
   const transliteratedHeb = heb.transliterate();
