@@ -25,7 +25,7 @@ export const transliterateMap: Dict = {
   "\u{05C4}": "", // HEBREW MARK UPPER DOT (U+05C4)
   "\u{05C5}": "", // HEBREW MARK LOWER DOT (U+05C5)
   "\u{05C6}": "n", // HEBREW PUNCTUATION NUN HAFUKHA (U+05C6)
-  "\u{05C7}": "o", // HEBREW POINT QAMATS QATAN (U+05C7)
+  "\u{05C7}": "å", // HEBREW POINT QAMATS QATAN (U+05C7)
   //   consonants
   א: "", // HEBREW LETTER ALEF (U+05D0)
   ב: "v", // HEBREW LETTER BET (U+05D1)
